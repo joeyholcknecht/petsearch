@@ -1,0 +1,37 @@
+body {
+  margin: 0;
+}
+
+.page {
+  min-height: 100vh;
+  background-image: url("/images/background.webp");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.pet-box {
+  max-width: 750px;
+}
+
+.search-box {
+  max-width: 320px;
+  background-color: #333;
+  color: white;
+}
+
+.search-box::placeholder {
+  color: #bbb;
+}
+
+.pet-img {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+}
+
+.search-box:focus {
+  background-color: #333;
+  color: white;
+}
